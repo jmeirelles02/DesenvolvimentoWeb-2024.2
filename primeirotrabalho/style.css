@@ -1,0 +1,34 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a família de fontes */
+    color: #333333; /* Define a cor do texto */
+    background-color: #f4f4f4; /* Define a cor de fundo */
+}
+
+/* Estiliza os títulos de nível 1 (h1) */
+h1 {
+    font-family: 'Georgia', serif; /* Define uma fonte específica para o h1 */
+    color: #4CAF50; /* Define a cor do texto */
+    font-size: 36px; /* Define o tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    text-transform: uppercase; /* Transforma o texto para maiúsculas */
+}
+
+/* Estiliza os parágrafos */
+p {
+    font-size: 18px; /* Define o tamanho da fonte */
+    line-height: 1.6; /* Define o espaçamento entre linhas */
+    color: #555555; /* Define uma cor de texto mais clara */
+    margin: 20px 0; /* Define o espaçamento superior e inferior */
+}
+
+/* Estiliza links */
+a {
+    color: #007BFF; /* Define a cor dos links */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+a:hover {
+    color: #022347; /* Muda a cor dos links ao passar o mouse */
+    text-decoration: underline; /* Adiciona o sublinhado ao passar o mouse */
+}

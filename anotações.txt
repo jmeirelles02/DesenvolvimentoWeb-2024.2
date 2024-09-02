@@ -1,0 +1,5 @@
+Processos
+
+•Definição: Processos são programas rodando em um nó de rede
+•Dentro do mesmo computador, os processos se comunicam usando comunicação inter-processos que é definida pelo SO
+•
