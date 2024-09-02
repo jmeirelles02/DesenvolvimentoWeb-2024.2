@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício HTML Completo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .highlight {
+            background-color: #ffffcc;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Minha Página HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Random</a></li>
+                <li><a href="#section2">Fluminense</a></li>
+                <li><a href="https://github.com/jmeirelles02/DesenvolvimentoWeb-2024.2.git">Meu Github</a></li>
+                <li><a href="#form-get">Formulário GET</a></li>
+                <li><a href="#form-post">Formulário POST</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Seção 1 -->
+        <section id="section1">
+            <h2>Seção 1: Random</h2>
+            <p>Bem-vindo à <strong>Minha Página HTML</strong>. Nesta página, você encontrará fluminense e coisas aleatoria.</p>
+            <p>Este texto está em <em>itálico</em> para protestar o banimento do X</p>
+            <img src="https://helpx.adobe.com/content/dam/help/en/firefly/using/remove-objects-from-an-image/remove-objects-generative-ai-after.jpg" alt="Imagem feita por IA generativa">
+            <p>Confira as <del>informações antigas</del> e as <ins>novas atualizações</ins> que fizemos recentemente.</p>
+        </section>
+
+        <!-- Seção 2 -->
+        <section id="section2">
+            <h2>Seção 2: Fluminense e nada más</h2>
+            <p>Esta seção contém <strong>FLUMINENSE</strong> campeão da copa libertadores da america de 2023.</p>
+            <img src="https://s2-oglobo.glbimg.com/OZ40gHnl8EeErZZvgo7PhGNW1YA=/0x0:2048x1365/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/Q/4/V0jFkfQl6j0iAvGLR6gQ/53309993561-8c869881fb-k.jpg" alt="A GLORIA ETERNA">
+        </section>
+
+        <!-- Formulário com método GET -->
+        <section id="form-get">
+            <h2>Formulário GET</h2>
+            <form action="#" method="GET">
+                <label for="name_get">Nome (GET):</label>
+                <input type="text" id="name_get" name="name_get" required>
+                <input type="submit" value="Enviar via GET">
+            </form>
+            <p>Ao enviar este formulário, os dados serão anexados à URL como parâmetros de consulta.</p>
+        </section>
+
+        <!-- Formulário com método POST -->
+        <section id="form-post">
+            <h2>Formulário POST</h2>
+            <form action="#" method="POST">
+                <label for="name_post">Nome (POST):</label>
+                <input type="text" id="name_post" name="name_post" required>
+                <input type="submit" value="Enviar via POST">
+            </form>
+            <p>Ao enviar este formulário, os dados serão enviados de forma oculta no corpo da requisição.</p>
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2024.2 Desenvolvimento Web</p>
+        <p>Feita por <strong>João</strong> <em>Gabriel</em>.</p>
+    </footer>
+</body>
+</html>
