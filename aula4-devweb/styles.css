@@ -1,0 +1,46 @@
+/* Aplica a fonte do Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Modificando o tamanho da fonte do título principal */
+h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+/* Div com tamanho fixo */
+.div-fixa {
+    width: 300px;
+    height: 150px;
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+}
+
+/* Div com tamanho relativo */
+.div-relativa {
+    width: 50%;
+    height: auto;
+    border: 2px dashed #000;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #fafafa;
+}
+
+/* Div com fundo colorido */
+.div-fundo {
+    background-color: #ffcc00;
+    padding: 20px;
+    min-height: 100px;
+    margin: 20px 0;
+}
+
+/* Span com texto em negrito vermelho e fundo azul claro */
+.span-negrito {
+    font-weight: bold;
+    color: red;
+    background-color: lightblue;
+    padding: 2px 5px;
+}

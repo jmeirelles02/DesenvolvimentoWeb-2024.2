@@ -1,0 +1,50 @@
+/* Estilizando a fonte global */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Cabeçalho principal */
+h1 {
+    color: hotpink; /* Cabeçalho rosa */
+    border-bottom: 10px dotted purple; /* Borda inferior pontilhada */
+    font-size: 36px;
+}
+
+/* Cabeçalho nível 2 em itálico */
+h2 {
+    font-style: italic;
+    font-size: 24px;
+    color: #555;
+}
+
+/* Estilizando o parágrafo */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilizando a lista de contato */
+ul.contato {
+    background-color: #eeeeee; /* Fundo cinza claro */
+    border: 5px solid purple; /* Borda roxa sólida */
+    padding: 15px; /* Espaçamento interno */
+    list-style-type: none;
+}
+
+/* Estilizando os itens da lista */
+ul.contato li {
+    margin: 5px 0;
+}
+
+/* Estilizando os links */
+ul.contato li a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+/* Tornando os links verdes ao passar o mouse */
+ul.contato li a:hover {
+    color: green;
+}
