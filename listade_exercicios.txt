@@ -1,0 +1,128 @@
+1.Facilita colaboração entre programadores, e provém segurança e estabilidade
+
+
+2.github é uma rede social utilizada para armazenar e compartilhar projetos,
+ enquanto o git é um sistema de controle de versão de arquivos
+
+3. HTML, usada para marcação de texto. CSS linguagem de estilo(estética). JavaScript linguagem de programação,
+utilizada para dar dinamismo as páginas
+
+4.Tags são o conjunto de caracteres que formam um elemento, ou seja, quando nos referenciamos à Tag "p" estamos falando disso: <p>
+Elementos são formados a partir de Tags e entre as Tags é que está o conteúdo do Elemento.
+Atributos são informações que passamos na Tag para que ela se comporte da maneira esperada. Existem atributos globais (que funcionam em todas as Tags) e específicos (que são direcionados para cada Tag, através de especificação).
+
+5.
+<html>
+<head>
+    <title>Minha página<title>
+    <meta charset= 'utf-8'>
+</head>
+<body>
+    <p> Estou por aqui</p>
+</body>
+</html>
+
+6. É uma organização abstrata dos conjuntos de protocolos de comunicação da internet em camadas de acordo com o nível de abstração de forma que a camada de baixo presta um serviço para a camada de cima
+
+7. a TCP(Transmission Control Protocol)faz o transporte confiavél e é orientada a conexão(só começa a enviar o dado se o outro lado estiver escutando) UDP(User Datagram Protocol)não confiaveis.
+
+8. Cliente-servidor: o servidor fornece serviço para os clientes que não se comunicam diretamente, tá sempre no ar e tem o ip fixo
+   Peer to Peer: não tem servidor central e os clientes se comunicam entre si
+
+9. Programa rodando em um nó na rede(computador) a gente os identifica com um processo com um endereço IP e uma porta
+
+10.O SSL(Secure Sockets Layer) é uma camada de segurança que protege comunicações TCP
+
+11. 2, o head e o body. Não há limite de descendentes
+
+12. 5 tipos de elementos de marcação
+I- <div>: Um elemento genérico de bloco usado para agrupar outros elementos, sem significado semântico por si só. Geralmente utilizado para organizar conteúdo e aplicar estilos com CSS.
+
+II- <span>: Um elemento genérico de linha, semelhante ao <div>, mas não quebra o fluxo de texto. Usado para agrupar e aplicar estilos específicos a partes de conteúdo inline.
+
+III- <section>: Usado para definir seções temáticas de um documento, como capítulos, partes de um artigo ou blocos tematicamente relacionados de conteúdo. Ajuda a organizar grandes pedaços de conteúdo.
+
+IV- <article>: Representa conteúdo independente que pode ser distribuído ou reutilizado, como um artigo de jornal, um post de blog ou um comentário de usuário.
+
+V- <aside>: Utilizado para conteúdo secundário ou complementar, como barras laterais, notas ou caixas de informações relacionadas, que não fazem parte do conteúdo principal.
+
+5 tipos de marcação semântica
+I-<header>: Define o cabeçalho de uma seção ou página. Geralmente contém títulos, logos, menus de navegação, ou qualquer outro conteúdo introdutório relevante.
+
+II-<footer>: Define o rodapé de uma página ou seção. Contém informações como créditos, links para políticas de privacidade, e dados de contato.
+
+III-<nav>: Indica um conjunto de links de navegação para guiar o usuário através de diferentes partes do site ou de uma seção do documento.
+
+IV-<main>: Representa o conteúdo principal do documento, que é único e essencial para a página. Deve haver apenas um <main> em cada página.
+
+V-<time>: Usado para marcar uma data ou hora. Pode ser utilizado em publicações, datas de eventos ou marcar prazos, e ajuda a dar contexto temporal ao conteúdo.
+
+13. Inform.(é o pai do Input) que são chamados de elementos de formulário
+
+14. <a></a>
+
+15.
+I- button
+II- fieldset
+III- form
+IV- input
+V- label
+
+16.
+class- Determina uma (ou mais) conjunto(s) para o elemento. Para definir mais de um conjunto, coloque-os separados por espaço.
+id- É o identificador único do elemento. Somente deve ser declarado um id por elemento. E este id não deve ser repetido na mesma página.
+name- O valor que vai receber o item do controle do servidor do formulário
+hidden- Oculta o elemento onde for declarado.
+style- Determina propriedades CSS diretamente no elemento.
+title- Representa um auxílio ao elemento. Semelhante a dica do elemento.
+
+17. É uma filosofia de design e uma característica da web de fazer com que independentemente que a página mude de tamanho/resolução/qualidade, ainda faça sentido para o usuário.
+
+18.
+Declaração-A declaração é a parte da regra que define o estilo a ser aplicado aos elementos selecionados. Cada declaração consiste em uma propriedade (o aspecto do estilo que será alterado) e um valor (o valor que será atribuído a essa propriedade). Declarações são incluídas dentro de { }, separadas por ponto e vírgula (;).
+Regra-Uma regra CSS é o bloco completo que define como determinados elementos HTML devem ser estilizados. Cada regra é composta por um seletor e um conjunto de declarações. A regra determina quais elementos serão afetados e como eles serão estilizados.
+Seletor-O seletor é a parte da regra que indica quais elementos HTML a regra irá estilizar. Ele pode ser um seletor de tipo (como p, div), seletor de classe (como .minha-classe), seletor de id (como #meu-id), ou combinações mais complexas.
+
+19.
+Seletor de classe- .minha-classe
+Seletor de ID- #meu-ID
+
+20.
+Margin- Espaçamento fora dos limites conteúdo
+padding- Espaçamento dentro dos limites conteúdo
+border- É a linha que tem em sua volta apenas elementos
+
+21.
+static: Padrão, o elemento segue o fluxo normal do documento e não responde a top, left, etc.
+Exemplo:
+<div style="position: static; background-color: lightgray;">
+  Este é um elemento com posicionamento estático.
+</div>
+
+
+relative: O elemento é movido em relação à sua posição original, mas ainda ocupa seu espaço no fluxo.
+Exemplo:
+<div style="position: relative; top: 10px; left: 20px; background-color: lightblue;">
+  Este é um elemento com posicionamento relativo, movido 10px para baixo e 20px para a direita.
+</div>
+
+absolute: O elemento é removido do fluxo e posicionado em relação ao ancestral com posicionamento definido (ou body se não houver).
+Exemplo:
+<div style="position: relative; height: 100px;">
+  <div style="position: absolute; top: 0; left: 0; background-color: pink;">
+    Este é um elemento com posicionamento absoluto, no topo esquerdo do ancestral posicionado.
+  </div>
+</div>
+
+fixed: O elemento é removido do fluxo e fixado em relação à janela do navegador, permanecendo fixo mesmo com o scroll.
+Exemplo:
+<div style="position: fixed; top: 0; right: 0; background-color: yellow;">
+  Este é um elemento fixo, no canto superior direito da janela, mesmo com scroll.
+</div>
+
+22. No JavaScript, os blocos de comando são definidos usando chaves ({ }). Eles agrupam múltiplas instruções que devem ser executadas juntas, especialmente dentro de estruturas de controle, funções, loops, etc.
+
+23.
+let- escopo de função/ uso desencorajado
+var- escopo de bloco/ variavéis que vão mudar no meio do código
+const-declaração de constantes com escopo de bloco/ variavéis fixas no código
